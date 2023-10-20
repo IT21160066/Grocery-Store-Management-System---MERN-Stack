@@ -1,0 +1,38 @@
+.addSales_form{
+    width: 500px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.addSales_form > label{
+    margin-bottom: 3px;
+}
+
+.addSales_form > input{
+    margin-bottom: 10px;
+    border: 1px solid rgba(35, 145, 31,0.2);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    text-indent: 5px;
+}
+
+.addSales_form > input:focus{
+    outline: 1px solid rgb(45, 132, 43);
+}
+
+.addSale{
+    margin-top: 10px;
+    width: 100px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #4b7256;
+    padding: 5px;
+}
+

@@ -1,0 +1,71 @@
+.update_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    margin: 30px;
+    border: 1px solid rgb(179, 219, 179);
+    border-radius: 10px;
+}
+
+.update_img{
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+.Item_details_form > form{
+    width: 500px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.update_data_form>input{
+    margin-bottom: 10px;
+    border: 1px solid rgba(35, 145, 31,0.2);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    text-indent: 5px;
+}
+
+.update_data_form>select{
+    margin-bottom: 10px;
+    border: 1px solid rgba(35, 145, 31,0.2);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    text-indent: 5px;
+}
+.update_data_form>input:focus{
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: #43B000;
+}
+.update_data_form > textarea {
+    margin-bottom: 10px;
+    border: 1px solid rgba(35, 145, 31,0.2);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    text-indent: 5px;
+}
+.item_goback{
+    border: none;
+    background-color: rgb(143, 26, 26);
+    color: white;
+    border-radius: 5px;
+    width: fit-content;
+}
+.item_save_updates{
+    border: none;
+    background-color: #43B000;
+    color: white;
+    border-radius: 5px;
+    width: fit-content;
+}

@@ -1,0 +1,87 @@
+.carousel_component {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    object-fit: fill;
+}
+
+.home_container{
+    width: 100%;
+}
+
+.boxred{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+#loadingAnimation_home{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background-color: #000000;
+}
+
+.show_vegitableslist{
+    /* display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-row:1; */
+    display: grid;
+    grid-auto-flow:column;
+    grid-auto-columns: 10%; /* play with this to change height of the children, 50% will fill half */
+    grid-template-columns: unset; /* do not set template columns and rows */
+    overflow-x: scroll; 
+    overflow-y: hidden;
+    gap: 10px;
+    
+    padding: 20px;
+}
+.show_vegitableslist::-webkit-scrollbar-track
+{
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+.show_vegitableslist::-webkit-scrollbar
+{
+  height: 8px;
+  background-color: #F5F5F5;
+}
+.show_vegitableslist::-webkit-scrollbar-thumb
+{
+  border-radius: 5px;
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); */
+  background-color: #158d15;
+}
+:root {
+    --animate-delay: 2s;
+  }
+
+.section_title{
+    margin: 0.125rem;
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: 35fr 30fr 35fr;
+}
+
+.section_title_line{
+    margin-bottom: 3.34375rem;
+    border-bottom: 0.125rem solid rgba(0,0,0,0.1);
+}
+
+.section_title_text{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 4.6rem;
+    margin-bottom: 2.18rem;
+    color: #666666;
+}
+
+

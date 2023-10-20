@@ -1,0 +1,158 @@
+.employee_welcomepage{
+    width: 100%;
+    position: relative;
+}
+
+.employee_welcome_content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    min-height: 90vh;
+}
+.scroll_animation{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50px;    
+}
+#animate{
+    transform: rotate(90);
+}
+.scroll_animation > a{
+    text-decoration: none;
+    margin: 0px;
+    font-size: 15px;
+    background-color: #0C783E;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.employee_welcome_img{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    /* background-color: aquamarine; */
+}
+
+.emp_welcome_img{
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+    animation: bikeMove 800ms ease-in-out;
+}
+.employee_welcome_texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* background-color: brown; */
+    text-align: center;
+    height: 100%;
+}
+.employee_welcome_texts > h1 {
+    font-weight: 900;
+    /* letter-spacing:1px; */
+    color: #0C783E;
+    text-shadow: 2px 2px 3px rgba(54, 209, 15, 0.2);
+}
+.employee_welcome_texts > p{
+    width: 70%;
+    margin-top: 10px;
+    width: 60%;
+    color: rgb(97, 97, 97);
+}
+.employee_welcome_texts > h4{
+    font-weight: 600;
+    color: #43B000;
+    font-size: 20px;
+}
+.employee_welcome_texts > a{
+    color: #0C783E;
+}
+
+.employee_reg_form{
+    width: 100%;
+    height: 100%;
+    padding-top: 90px;
+    transition: all ease 300ms;
+    
+} 
+
+/* #active{
+    height: auto;
+} */
+.reg_from{
+    background-color: rgba(243, 247, 241, 0.5);
+    max-width: 1200px;
+    display: grid;
+    row-gap: 20px;
+    column-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px auto;
+    padding: 30px;
+}
+
+.input_block{
+    display: flex;
+    flex-direction: column;
+}
+.input_block > label{
+    font-weight: 500;
+}
+
+.input_block > input{
+    margin-top: 10px;
+    border: 1px solid rgba(35, 145, 31,0.2);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 2px;
+    text-indent: 5px;
+}
+.input_block > input:focus{
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: rgba(67, 176, 0, 0.5);
+}
+.input_block > select{
+    margin-top: 10px;
+    border: 1px solid rgba(35, 145, 31,0.2);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 2px;
+    text-indent: 5px;
+    margin-top: 10px;
+}
+
+.address_inputs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 10px;
+    column-gap: 30px;
+}
+.registerBtn{
+    width: fit-content;
+    height: fit-content;
+    background-color: #0C783E;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    transition: all ease 300ms;
+}
+.registerBtn:hover{
+    background-color: #0e6b3a;
+}
+
+@keyframes bikeMove{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}

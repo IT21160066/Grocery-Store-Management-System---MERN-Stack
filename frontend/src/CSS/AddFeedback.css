@@ -1,0 +1,76 @@
+.image1234{
+    width:100%;
+    
+}
+.image-text{
+    position: absolute;
+    top: 23%;
+    color: #fff;
+}
+.feedbacktopic{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: #958E8E;
+    margin-top: 20px;
+}
+.feedbackphoto{
+    width:650px;
+    padding-top:10px;
+}
+.main{
+    display: flex;
+}
+.category{
+    width:750px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+   
+}
+.commentside{
+    
+    background-color: #E8F5EA;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 800px;
+    height: 500px;
+    box-shadow: 10px 10px 5px lightgray;
+}
+.category{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.categorytopic{
+    margin-top: 60px;
+    margin-left: 30px;
+   
+}
+.yourfeedbacktopic{
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-bottom:30px ;
+}
+.textareacomment{
+    padding-left:30px;
+
+}
+.submitbtn1{
+    margin-top: 40px;
+    
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: white;
+    border-radius: 8px;
+    border:2px solid#43B000;
+    transition-duration: 0.4s;
+}
+.submitbtn1:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #43B000; 
+    color: white;
+}
+.textareafield{
+    border-radius:5px;
+}

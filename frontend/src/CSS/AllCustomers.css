@@ -1,0 +1,90 @@
+.table_content{
+    width: 100%;
+    border-collapse: collapse;
+    /* margin: 25px 0; */
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    max-height: 390px;
+    overflow-y: scroll;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+    
+}
+.allCustomers_searchbar{
+    border: 1px solid rgba(35, 145, 31,0.2);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    text-indent: 5px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.container{
+    height: 100%;
+    min-height: 300px;
+}
+
+.table_content thead tr{
+    background-color: #4b7256;
+    color: #FFFFFF;
+    text-align: left;
+    font-weight: bold;
+    position:sticky;
+    top: 0px;
+}
+
+.table_content tr.select:hover{
+    color: #49be68;
+}
+
+.table_content th,
+.table_content td{
+    padding: 12px 15px;
+    
+}
+
+.table_content tbody tr {
+    border-bottom: 1px solid #d8d1d1;
+}
+
+.table_content tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.table_content tbody tr:last-of-type{
+    border-bottom: 2px solid #49be68;
+}
+
+.table_content tbody tr.active-row{
+    font-weight: bold;
+    color: #49be68;
+}
+
+.btncolor{
+    width: 100px;
+    height: 39px;
+    border: none;
+    outline: none;
+    border-radius: 49px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 12px;
+    /* transition: .5s; */
+    background-color: #0f9230;
+}
+
+.btncolor{
+    
+    color: white;
+ }
+
+ .btncolor:hover{
+    background-color: #e8101b;
+    color: white;
+ }

@@ -1,0 +1,98 @@
+.add_item_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    border: 1px solid rgb(210, 210, 210);
+}
+
+.add_item_image{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_item_form{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+}
+.add_item_form > form>label{
+    margin-bottom: 5px;
+}
+.add_item_form > form > input {
+    margin-bottom: 15px;
+    border: 1px solid rgba(35, 145, 31,0.2);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    text-indent: 5px;
+    /* transition: all ease 300ms; */
+}
+.add_item_form > form > select {
+    margin-bottom: 15px;
+    border: 1px solid rgba(35, 145, 31,0.2);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    text-indent: 5px;
+    /* transition: all ease 300ms; */
+}
+.add_item_form > form> input:focus{
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: #43B000;
+}
+.add_item_form > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.add_item_form > form > textarea{
+    margin-bottom: 15px;
+    border: 1px solid rgba(35, 145, 31,0.2);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    text-indent: 5px;
+}
+.add_image_img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.option_btns{
+    display: flex;
+    gap:10px
+}
+
+.opbtn{
+    border: none;
+    padding: 3px 20px;
+    font-weight: 400;
+    color:white;
+    border-radius: 5px;
+}
+
+.add{
+    background-color: #144D23;
+}
+.add:hover{
+    background-color: #4b7256;
+}
+
+.cancel{
+    background-color: red;
+}
+.reset{
+    background-color: #000000;
+}

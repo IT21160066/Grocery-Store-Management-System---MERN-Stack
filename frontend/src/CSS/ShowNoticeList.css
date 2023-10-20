@@ -1,0 +1,41 @@
+.noticetopic{
+    margin-left: 20px;
+    margin-bottom: 5%;
+}
+.addnoticebtn{
+    background-color: #0C783E;
+    margin-top:2%;
+    border-radius: 5px;
+    margin-left: 90%;
+    
+    color: white;
+}
+.editnotice{
+    background-color: #47754E;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.deletenotice{
+    background-color: rgb(189, 35, 35);
+    border-radius: 5px;
+    color: white;
+
+}
+.noticetable{
+    width:90%;
+    height: fit-content;
+    background-color: #D9D9D9;
+    margin-left:5%;
+    border-radius: 5px;
+
+}
+.fullcontanernotice{
+    width: 90%;
+    height:100%;
+}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,52 @@
+.sbtn{
+    margin-left: 10px;
+}
+.sbtn{
+    border: none;
+    background-color: transparent;
+}
+.send{
+    width: 18px;
+    height: fit-content;
+    margin-left: 200px;
+    margin-bottom: 2px;
+}
+.replytextbox{
+    width:200px;
+    margin-top: 10px;
+}
+.countcmt{
+    margin-left: 20px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.maincnt{
+    
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: #87c090;
+    
+}
+.deletebutton1{
+    background-color: rgb(255, 53, 53);
+    border-radius:5px ;
+    color: white;
+}
+.fullscreen{
+    width:80%;
+    height: fit-content;
+}
+.feedbacktopic1{
+    padding-right: 20px;
+}
+.manageFeedBack_search{
+    border: 1px solid rgba(35, 145, 31,0.2);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    text-indent: 5px;
+    width: 200px;
+    margin-right: 20px;
+}

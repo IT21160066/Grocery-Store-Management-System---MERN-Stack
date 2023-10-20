@@ -1,0 +1,233 @@
+.myContainer{
+    display: flex;
+    flex-direction: column;
+    width : 100%;
+    height: 100%;
+    margin: 30px auto;
+    padding: 20px;
+    /* border:1px solid #1879329d; */
+    /* border-radius: 10px; */
+    position: relative;
+    overflow-y: scroll;
+}
+
+.all_assets_search{
+    margin: 20px 0 20 0px;
+    border: 1px solid rgba(35, 145, 31,0.2);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    text-indent: 5px;
+    width:300px;
+}
+
+/* .myContainerNew{
+    width : 40%;
+    margin: 30px auto;
+    background-color: rgba(145, 255, 154, 0.5);
+    padding: 20px;
+    border-radius: 15px 50px;
+} */
+
+.assetsForm{
+    background-color: rgba(145, 255, 154, 0.025);
+}
+/* #assets_list_table{
+    height: 250px;
+    overflow-y: scroll;
+} */
+
+.addAssetsForm{
+    width : 40%;
+    margin: 30px auto;
+    /* background-color: rgba(145, 255, 154, 0.2); */
+    padding: 20px;
+    margin: 30px auto;
+    padding: 20px;
+    border:1px solid #1879329d;
+    border-radius: 10px;
+    position: relative;
+}
+
+.deleteBtn{
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: #ffffff;
+    border: 1px solid black;
+}
+
+.editBtn{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: black;
+    border: 1px solid black;
+}
+
+.myContainer2{
+    width : 40%;
+    margin: 20px auto;
+    /* background-color: rgba(145, 255, 154, 0.2); */
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border:1px solid #1879329d;
+    position: relative;
+}
+
+.calc_profin_sort_imputs_container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.totalAssetsDev{
+    display: flex;
+}
+
+.totalAssetsDev input{
+    border-radius: 15px;
+    text-align: center;
+    background-color: White;
+    margin-left: 10px;
+}
+
+.myContainer4{
+    width : 40%;
+    margin: 30px auto;
+    /* background-color: rgba(145, 255, 154, 0.2); */
+    padding: 20px;
+    border-radius: 15px 50px;
+    border: solid 1px green;
+}
+
+.sortBy{
+    margin-bottom: 20px;
+}
+
+.sortByDate{
+    margin-bottom: 20px;
+}
+
+.sortByDate2{
+    margin-left: 1px;
+    margin-top: -46px;
+}
+
+.sortByIEHistory{
+    margin-left: 80%;
+    
+}
+
+.locateSort{
+    margin-top: 20px;
+    margin-left: 40%;
+}
+
+.locateSort2{
+    margin-top: -80px;
+}
+
+.sortMonth2{
+    margin-left: 20px;
+}
+
+.calc_profit_bottom_btns{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 100%;
+    padding: 0 10px;
+}
+.calc_options{
+    border: none;
+    border-radius: 5px;
+    
+    position: relative;
+}
+.generateReportbtn{
+    background-color: #144d23;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    transition: all ease 300ms;
+}
+
+.generateReportbtn:hover{
+    background-color: #0a892c;
+}
+.backbtn{
+    background-color: rgb(150, 27, 27);
+    color: white;
+    /* position: absolute;
+    bottom: 10px;
+    right: 10px; */
+    transition: all ease 300ms;
+}
+
+.backbtn:hover{
+    background-color: rgb(220, 45, 45);
+}
+
+.profitOrLossH{
+    color: rgb(53, 194, 194);
+    text-align: center;
+}
+
+.reportGeneratedDate{
+    font-weight: bold;
+    margin-left: 42%;
+}
+
+.sortByM{
+    width: fit-content;
+}
+
+.sortByDateProfitReport{
+    width: fit-content;
+}
+
+.profitReportSortByOprionsDiv{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.sortByDateDivInProfitReport{
+    margin-left: 30%;
+}
+
+.reportContainerProfit{
+    /* display: flex; */
+}
+
+.profitThisMonth{
+    margin-right: 10px;
+}
+
+.profitPreMonth{
+    margin-left: 30px;
+}
+
+.thisMonthProfitHeadline{
+    color: brown;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-decoration: underline;
+}
+#backbtnIncalcProf{
+    background-color: rgb(150, 27, 27);
+    color: white;
+    transition: all ease-in 300ms;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+#backbtnIncalcProf:hover{
+    background-color: rgb(187, 47, 47);
+}

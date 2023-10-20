@@ -1,0 +1,67 @@
+.myContainer3{
+    width : 30%;
+    margin: 30px auto;
+    /* background-color: rgba(145, 255, 154, 0.2); */
+    padding: 20px;
+    border:1px solid #1879329d;
+    border-radius: 10px;
+}
+.assestForm_input_container > input{
+    border: 1px solid rgba(35, 145, 31,0.2);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    text-indent: 5px;
+    margin-bottom: 10px;
+}
+
+.assestForm_input_container > input:focus{
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: #43B000;
+}
+
+.text_box_container{
+    display: flex;
+    flex-direction: row;
+}
+.radiobtn{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-left: 15%;
+}
+
+.radiobtn > input,
+.radiobtn > label{
+    margin: 0 8px;
+}
+
+.dateHidden{
+    background: transparent;
+}
+
+.addOtherRev{
+    border: none;
+    background-color: #144d23;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 5px;
+    transition: all ease 300ms;
+}
+.addOtherRev:hover{
+    background-color: #0a892c;
+}
+
+.back{
+    border: none;
+    padding: 2px 10px;
+    background-color: rgb(171, 29, 29);
+    color: white;
+    border-radius: 5px;
+    transition: all ease 300ms;
+}
+.back:hover{
+    background-color: rgb(220, 45, 45);
+}

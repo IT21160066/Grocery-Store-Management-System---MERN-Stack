@@ -1,0 +1,300 @@
+/* .Add_Items_container{
+    flex-direction: row;
+    width: fit-content;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+} */
+/* .success_animation{
+    width: 100px;
+    position: absolute;
+    left: 45%;
+    top:60%;
+} */
+
+.Add_Items_textAndImage{
+    display: flex;
+    position: relative;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-right: 1px solid #0C783E; */
+    padding: 50px;
+    text-align: center;
+    line-height: 30px;
+}
+.Add_Items_textAndImage> h1{
+    font-weight: 900;
+    /* letter-spacing:1px; */
+    color: #0C783E;
+    text-shadow: 2px 2px 3px rgba(54, 209, 15, 0.2);
+}
+
+.Add_Items_textAndImage > p{
+    margin-top: 30px;
+    width: 60%;
+    color: rgb(97, 97, 97);
+}
+.Add_Items_textAndImage > h4{
+    font-weight: 600;
+    color: #43B000;
+    font-size: 20px;
+}
+.store_page_img{
+    width: 60%;
+}
+
+.Add_Items_form{
+    margin: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Add_form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: hwb(120 98% 0% / 0.985);
+    padding: 50px;
+    font-size: 12px;
+    padding: 70px;
+}
+.Add_form> label{
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: medium;
+
+}
+.Add_form> input{
+    line-height: 25px;
+    border-radius: 8px;
+    border: 1px solid rgb(#ffffff);
+    text-indent: 10px;
+    margin-top: 5px;
+    border: 1px solid rgba(59, 146, 48, 0.4);
+    padding: 5px;
+    width: 100%;
+   
+}
+
+.price_stock>label{
+    font-weight: 700;
+    
+   
+}
+
+.price_stock{
+    padding: 10px 10px;
+    /* margin-bottom: ; */
+}
+.price_stock > input{
+    width: auto;
+    line-height: 25px;
+    border-radius: 8px;
+    border: 1px solid rgba(59, 146, 48, 0.4);
+    text-indent: 10px;
+    margin:5px;
+}
+
+.date>label{
+    font-weight: 700;
+   
+}
+
+.date{
+    padding: 10px 10px;
+    /* margin-bottom: ; */
+}
+.date > input{
+    line-height: 30px;
+    border-radius: 8px;
+    text-indent: 10px;
+    margin-top: 5px;
+    border: 1px solid rgba(59, 146, 48, 0.4);
+}
+
+/* .btn{
+    position: relative;
+    border: 3px solid green;
+    background-color: #43B000;
+} */
+
+.contained{
+    width: fit-content;
+}
+
+.lables_inputs{
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    font-size: medium;
+}
+.label_input_container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.label_input_container>input{
+    line-height: 30px;
+    border-radius: 8px;
+    text-indent: 10px;
+    margin-top: 5px;
+    border: 1px solid rgba(59, 146, 48,0.4);
+    padding-top: 5px;
+}
+
+.button_container>button{
+   
+ 
+
+/* CSS */
+
+  /* background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  box-shadow: 8px 8px 8px darkgreen; */
+
+
+/* CSS */
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 0%;
+  
+  
+
+
+}
+
+.button_container>button:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button_container>button {
+    padding: 10px 30px;
+    margin-right: 20px;
+
+   
+    
+  }
+  
+}
+
+
+/* .button:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 10px 30px;
+  }
+} */
+
+
+.button_container{
+    padding-left: 100px;
+    text-align: center;
+  
+
+
+}
+
+.Add_Items_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: fit-content;
+    margin: 30px;
+    border: 1px solid rgb(179, 219, 179);
+    border-radius: 10px;
+}
+/* .Buy_img{
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+} */
+.Add_Itemsupdate_form>form{
+    width: 500px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 20px;
+}
+.Addupdateitem_form>input{
+    margin-bottom: 10px;
+    border: 1px solid rgba(35, 145, 31,0.2);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    text-indent: 5px;
+
+}
+
+.Addupdateitem_form>input:focus{
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: #43B000;
+}
+/* .sup_item_goback{
+    border: none;
+    background-color: rgb(143, 26, 26);
+    color: white;
+    border-radius: 5px;
+    width: fit-content;
+} */
+.updatebutton_container{
+    border: none;
+    background-color: #43B000;
+    color: white;
+    border-radius: 5px;
+    width: fit-content;
+    margin-inline:auto;
+    width: 100%;
+    height: 35px;
+}

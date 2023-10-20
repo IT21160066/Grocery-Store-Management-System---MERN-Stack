@@ -1,0 +1,11 @@
+.navigateBtns button{
+    border-radius: 10px;
+    background-color: #144d23;
+    height: 30px;
+    width: 210px;
+    margin-left: 10px;
+    color: white;
+}
+.navigateBtns button:hover {
+    background-color: #1d6631;
+  }

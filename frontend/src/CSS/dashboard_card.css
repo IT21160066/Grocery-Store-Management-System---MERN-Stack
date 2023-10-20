@@ -1,0 +1,101 @@
+.product_dsh__card{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 3px 2px 8px 5px rgba(73, 73, 73, 0.1);
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    width: 60%;
+}
+
+.product_dsh__tilte {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: larger;
+    color: black;
+}
+
+.product_dsh__price{
+    color: red;
+}
+.total_quantity{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.total_quantity h4{
+    font-size: 0.8rem;
+    margin: 0;
+}
+.total_quantity h5{
+    margin: 0;
+}
+.product_dsh__img{
+    padding: 10px;
+    /* background-color: #168200; */
+    align-items: center;
+}
+
+.product_dsh__img > img{
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    border-radius: 5px;
+    object-fit: cover;
+    cursor: pointer; 
+    transition: 0.4s;
+}
+.product_dsh__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    width: 200px;
+    border-left: 1px solid rgb(178, 178, 178); 
+}
+
+
+.product_dsh_options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: auto;
+    height: 100%;
+    
+    align-items: center;
+   
+}
+
+.addTOCart_dsh__btn{
+    border: none;
+    background-color: rgb(187, 187, 187);
+}
+
+.inventoryListcardbtn{
+    border: none;
+    text-decoration: none;
+    padding: 0px 10px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+
+.item_edit{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    color: black;
+    
+}
+.edit:hover{
+    color: black;
+}
+.remove{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}

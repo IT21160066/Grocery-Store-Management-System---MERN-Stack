@@ -1,0 +1,40 @@
+.manage_stores_container{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+#manage_store_table{
+    margin-top: 20px;
+    background-color: #abc4b2;
+    width: 100%;
+}
+.manageStore_searchbar{
+    border: 1px solid rgba(35, 145, 31,0.2);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    text-indent: 5px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+#manage_store_table th{
+    background-color: #4b7256;
+    padding: 5px 2px;
+    color: white;
+}
+#manage_store_table td{
+    padding: 0px 2px;
+    border:2px solid rgb(255, 255, 255);
+}
+#manage_store_table tr:nth-child(even) {
+    background-color: #dee6de;
+}
+
+#supplier_profile_img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}

@@ -1,0 +1,84 @@
+.show_feedBacks_container{
+    width: 100%;
+    min-height: 80vh;
+    margin-bottom: 20px;
+}
+.show_feedBacks_img{
+    width: 100%;
+}
+#showFeedback_deco_img{
+    width: 100%;
+}
+.show_feed_back_table{
+    width: 90%;
+}
+.countcomment{
+    font-size: large;
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.feedback_bg_img{
+    position: absolute;
+    width: 100%;
+    z-index: -50;
+    object-fit: cover;
+}
+
+.maincon{
+    width:70%;
+    height: fit-content;
+    /* background-color: #EDF8F0; */
+    background-color: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    /* box-shadow: 10px 10px 5px lightgray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.category{
+    color: #aaaaaa;
+}
+.comment{
+    font-size:90%;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    
+}
+.admin{
+    width: 3%;
+    height: fit-content;
+    margin-right: 3px;
+    
+}
+.reply{
+    margin-left: 100px;
+    margin-top: 20px;
+    display: flex;
+}
+.adminbadge{
+    color: #0d8ea5;
+    /* background-color: #aaaaaa; */
+}
+.edit{
+    margin-left: 18px;
+    width: 20px;
+    height: fit-content;
+}
+.delete1{
+    width: 18px;
+    height: fit-content;
+}
+.editbtn{
+    border: none;
+    background-color: transparent;
+}
+                                         
+.deletebtn{
+    border: none;
+    background-color: transparent;
+}

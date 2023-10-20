@@ -1,0 +1,150 @@
+.image123{
+    position: relative;
+}
+.image123{
+    width:100%;
+    
+}
+.image-text{
+    position: absolute;
+    top: 23%;
+    color: #fff;
+}
+.topic{
+     color: green;
+     margin: 2%;
+}
+.paragraph{
+    background-color: #C6C6C6;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+}
+.con1{
+    width: 50%;
+    height: 160px;
+    background-color: #E8F5EA;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    box-shadow: 10px 10px 5px lightgray;
+}
+.ilogo{
+    width: 300px;
+ 
+}
+.companyname{
+    color:#144D23;
+   margin-left: 5px;
+}
+.peris{
+    color:#144D23;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+.full{
+    display: flex;
+}
+.con2{
+    background-color: #E8F5EA;
+    width: 15%;
+    height: 160px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 10px 10px 5px lightgray;
+    
+}
+.callLogo{
+    width: 90px;
+    margin-left:0px;
+    
+}
+.contactnumber{
+    margin-top: 10px;
+}
+
+.mailLogo{
+    width: 90px;
+    margin-left:0px;
+    
+}
+.mail{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.con3{
+    background-color: #E8F5EA;
+    width: 16%;
+    height: 160px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 10px 10px 5px lightgray;
+    
+}
+.faxlogo{
+    width: 90px;
+    margin-left:0px;
+}
+.fax{
+    margin-top: 0px;
+}
+.con4{
+    background-color: #E8F5EA;
+    width: 14%;
+    height: 160px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 10px 10px 5px lightgray;
+}
+
+button.sendbtn12{
+    margin-top:2%;
+    margin-left: 68%;
+    margin-bottom:2%;
+    margin-right:1.2%;
+    color: black;
+    width:16%;
+    height:40px;
+    background-color: white;
+    border-radius: 8px;
+    border:2px solid#43B000;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+.sendbtn12:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #43B000; 
+    color: white;
+}
+.showbtn12{
+   
+    color: black;
+    width:14%;
+    height:40px;
+    background-color: white;
+    border-radius: 8px;
+    border:2px solid #FE9E0F ;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+.showbtn12:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #FE9E0F; 
+    color: white;
+}
+
+.contact_us_btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

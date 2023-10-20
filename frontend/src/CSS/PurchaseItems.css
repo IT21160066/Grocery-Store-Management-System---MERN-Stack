@@ -1,0 +1,64 @@
+.Buy_Items_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    margin: 30px;
+    border: 1px solid rgb(179, 219, 179);
+    border-radius: 10px;
+}
+.Buy_img{
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+.Buy_Items_form>form{
+    width: 500px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 20px;
+}
+.Buy_form>input{
+    margin-bottom: 10px;
+    border: 1px solid rgba(35, 145, 31,0.2);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    text-indent: 5px;
+
+}
+
+.Buy_form>select{
+    margin-bottom: 10px;
+    border: 1px solid rgba(35, 145, 31,0.2);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    text-indent: 5px;
+}
+.Buy_form>input:focus{
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: #43B000;
+}
+.sup_item_goback{
+    border: none;
+    background-color: rgb(143, 26, 26);
+    color: white;
+    border-radius: 5px;
+    width: fit-content;
+}
+.item_buy{
+    border: none;
+    background-color: #43B000;
+    color: white;
+    border-radius: 5px;
+    width: fit-content;
+    margin-inline:auto;
+    width: 100%;
+    height: 35px;
+}

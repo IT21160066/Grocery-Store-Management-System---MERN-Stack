@@ -1,0 +1,150 @@
+.reviewFullContainer {
+
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.qty{
+
+    width: 40px;
+}
+
+.form_cus_container {
+
+    border: solid 1px #26c04f;
+    padding: 40px 80px 40px 80px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    height: 600px;
+    width: 800px;
+    box-shadow: 5px 10px 8px 10px #e9e2e2;
+}
+
+.reciptreviewcontainer {
+
+    border: solid 1px #26c04f;
+    padding: 40px 60px 40px 60px;
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.odheading h6, #odetails{
+
+    text-align: center;
+    background-color: #269824;
+    border-radius: 10px;
+    padding: 5px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.pyheading h6, #pay{
+
+    text-align: center;
+    background-color: #269824;
+    border-radius: 10px;
+    padding: 5px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.form-phone, .form-address, .form-name, .form-store {
+
+    border-radius: 15px; 
+    border: solid 1px green;
+    outline: none;
+    padding: 5px;
+        
+}
+
+.form-store{
+
+    margin-bottom: 25px;
+}
+
+.cancelRevw{
+
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 2px 4px;
+    margin-right: 400px;
+    margin-top: -30px;
+}
+
+.cRevw{
+
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.cRevw:hover {
+
+    background-color: orange;
+    color: rgb(34, 33, 33);
+    border: none;
+}
+
+.Proceed {
+
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 2px 4px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.proceedbutton {
+
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.proceedbutton:hover {
+
+    background-color: orange;
+    color: rgb(34, 33, 33);
+    border: none;
+}
+
+#review1{
+
+    width: 550px;
+    height: 400px;
+    margin-top: 70px;
+    margin-right: 15px;
+}
+
+#shop{
+
+    margin-right: 20px;
+    width: 250px;
+    height: 300px;
+}
+
+#rwTick{
+
+    width: 100px;
+    height: 100px;
+    margin-left: 45px;
+    margin-top: 40px;
+}
